@@ -108,9 +108,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-top: 50px;
-    margin-left: 260px;
-    margin-right: 260px; */
     margin: 50px 260px 135px 260px;
 }
 
@@ -121,36 +118,97 @@ img {
     text-align: center;
 }
 
-.plan-box> p {
+.plan-box>p {
     font-weight: 500;
     font-size: 25px;
     line-height: 29px;
     text-align: center;
 }
-.plan-box > img{
+
+.plan-box>img {
     padding-left: 45px;
 }
-.web-icon{
-    margin-left:50px;
+
+.web-icon {
+    margin-left: 50px;
 }
 
 /* My plans Complete */
-#contact-banner{
+#contact-banner {
     margin: auto;
     height: 300px;
     width: 1140px;
-    background-image: url("../images/watch.png"),linear-gradient(to left, rgba(3, 94, 169, 0.1), rgba(3, 94, 169, 1) );
+    background-image: url("../images/watch.png"), linear-gradient(to left, rgba(3, 94, 169, 0.1), rgba(3, 94, 169, 1));
     background-blend-mode: overlay;
     border-radius: 10px;
     margin-bottom: 130px;
 }
-.contact-banner-title{
+
+.contact-banner-title {
     padding: 60px 0px 24px 65px;
 }
-.contact-banner-title > h1{
+
+.contact-banner-title>h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
     color: #FFFFFF;
-    padding-bottom: 24px;   
+    padding-bottom: 24px;
+}
+
+/* Main Section End */
+/* Footer Section Started */
+/* Footer left Side */
+#foot {
+    width: 100%;
+    height: 580px;
+    background-color: #151414;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-left {
+    color: #FFFFFF;
+}
+
+.footer-left-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.footer-left-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.mail-address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.contact-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* Footer Right Side */
+.footer-right{
+    color: #FFFFFF;
+}
+.footer-right-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 28px;
+    padding-bottom: 25px;
+}
+#Email{
+
 }
