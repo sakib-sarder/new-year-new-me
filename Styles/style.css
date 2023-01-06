@@ -158,19 +158,24 @@ img {
 
 /* Main Section End */
 /* Footer Section Started */
-/* Footer left Side */
 #foot {
     width: 100%;
     height: 580px;
     background-color: #151414;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 200px;
+    margin: auto;
 }
+
+/* Footer left Side */
 .footer-left {
     color: #FFFFFF;
+    margin-top: 130px;
 }
 
 .footer-left-title {
@@ -199,16 +204,49 @@ img {
     font-size: 16px;
     line-height: 26px;
 }
-/* Footer Right Side */
-.footer-right{
-    color: #FFFFFF;
+.footer-left-icon{
+    display: flex;
+    gap: 10px;
 }
-.footer-right-title{
+.social-media-icon{
+    height: 35px;
+    width: 35px;
+}
+/* Footer Right Side */
+.footer-right {
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+
+.footer-right-title {
     font-weight: 600;
     font-size: 25px;
     line-height: 28px;
-    padding-bottom: 25px;
+    margin-bottom: 20px;
 }
-#Email{
 
+#email {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #151414;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+.footer-right-btn {
+    width: 170.11px;
+    height: 64px;
+    left: 907px;
+    top: 2924px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+    background-color: #005FAC;
+    display: block;
 }
