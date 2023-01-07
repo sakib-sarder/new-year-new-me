@@ -15,6 +15,11 @@
     font-weight: 600;
     color: #005FAC;
 }
+.btn-primary:hover{
+    background-color: #57a2df;
+    color: #FFFFFF;
+    transition: 1s ease-in-out;
+}
 
 /* Header Part Starts */
 #header {
@@ -52,9 +57,10 @@
     margin-left: 360px;
 }
 
-/* End Header Part */
+/* Header Part Ends */
 
 /* Main Part Starts */
+
 /* Previous year Part Starts */
 #previous-year {
     margin-top: 130px;
@@ -63,7 +69,12 @@
     align-items: center;
     gap: 85px;
 }
-
+.previous-year-right{
+    margin-top: 250px;
+}
+.person-image{
+    margin-top: 5px;
+}
 .failure-header {
     font-size: 40px;
     font-weight: 700;
@@ -81,12 +92,14 @@
 .check-icon {
     height: 25px;
     width: 25px;
+    margin-top: 6px;
     display: block;
 }
-
-img {
-    margin-top: 5px;
+.plan-list{
+    list-style: none;
+    margin-top: 3px;
 }
+
 
 .check-parent {
     display: flex;
@@ -97,32 +110,43 @@ img {
     padding-bottom: 14px;
 }
 /* End Previous Year Part */
-/* Extra Section Starts */
-#blogs-container{
 
+/* Extra Section Starts */
+.blog-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+#blogs-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0px;
 }
 .blogs-box1{
     height: 400px;
     width: 350px;
     padding: 10px;
-    border: 1px solid #444343;
     border-radius: 10px;
-    background-color: #dad2d2;
+    background-color: #eecccc;
+    box-shadow: 5px 5px 10px rgb(155, 120, 120);
 }
 .blogs-box2{
     height: 400px;
     width: 350px;
     padding: 10px;
-    border: 1px solid #444343;
     border-radius: 10px;
     background-color: rgb(180, 233, 233);
+    box-shadow: 5px 5px 10px rgb(105, 189, 223);
 }
 .blogs-box3{
     height: 400px;
     width: 350px;
     padding: 10px;
-    border: 1px solid #444343;
     border-radius: 10px;
+    background-color: rgb(120, 219, 186);
+    box-shadow: 5px 5px 10px rgb(83, 158, 168);
 }
 .blogs-img{
     height: 100px;
@@ -137,7 +161,8 @@ img {
 .blogs-description{
     line-height: 25px;
 }
-/* Extra Section End */
+/* Extra Section Ends */
+/* My Plan Section Starts */
 .my-plan-heading {
     font-size: 40px;
     font-weight: 700;
@@ -175,7 +200,8 @@ img {
     margin-left: 50px;
 }
 
-/* My plans Complete */
+/* My Section Ends */
+
 /* Contact Banner Starts */
 #contact-banner {
     margin: auto;
@@ -198,10 +224,10 @@ img {
     color: #FFFFFF;
     padding-bottom: 24px;
 }
-/* Contact Banner End */
+/* Contact Banner Ends */
 /* Main Section End */
 
-/* Footer Section Started */
+/* Footer Section Starts */
 #foot {
     width: 100%;
     height: 580px;
@@ -216,7 +242,7 @@ img {
     margin: auto;
 }
 
-/* Footer left Side */
+/* Footer Left Side Starts */
 .footer-left {
     color: #FFFFFF;
     margin-top: 130px;
@@ -257,7 +283,9 @@ img {
     height: 35px;
     width: 35px;
 }
-/* Footer Right Side */
+/* Footer Left Side Ends */
+
+/* Footer Right Side Starts */
 .footer-right {
     color: #FFFFFF;
     margin-top: 130px;
@@ -295,4 +323,5 @@ img {
     background-color: #005FAC;
     display: block;
 }
-/* End Footer Right */
+/* Footer Right Ends*/
+/* Footer Section Ends */
