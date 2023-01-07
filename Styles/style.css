@@ -96,8 +96,48 @@ img {
 .checked-info {
     padding-bottom: 14px;
 }
-
 /* End Previous Year Part */
+/* Extra Section Starts */
+#blogs-container{
+
+}
+.blogs-box1{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #444343;
+    border-radius: 10px;
+    background-color: #dad2d2;
+}
+.blogs-box2{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #444343;
+    border-radius: 10px;
+    background-color: rgb(180, 233, 233);
+}
+.blogs-box3{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #444343;
+    border-radius: 10px;
+}
+.blogs-img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.blogs-box-title{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.blogs-description{
+    line-height: 25px;
+}
+/* Extra Section End */
 .my-plan-heading {
     font-size: 40px;
     font-weight: 700;
